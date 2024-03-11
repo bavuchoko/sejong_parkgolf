@@ -1,0 +1,68 @@
+ifndef::snippets[]
+:snippets: ../../../build/generated-snippets
+endif::[]
+
+== GAME API
+파크골프 경기를 생성, 조회, 참가 등에 관한 api +
+<<create-game-api>>, <<create-list-api>>, <<game-view-api>>
+
+
+[[create-game-api]]
+== *경기 생성*
+=== 요청헤더
+include::{snippets}/game-create-api/request-headers.adoc[]
+
+=== 요청필드
+include::{snippets}/game-create-api/request-fields.adoc[]
+
+=== curl-요청예시
+include::{snippets}/game-create-api/curl-request.adoc[]
+
+=== http 요청예시
+include::{snippets}/game-create-api/http-request.adoc[]
+
+=== 응답
+include::{snippets}/game-create-api/http-response.adoc[]
+
+=== 응답헤더
+include::{snippets}/game-create-api/response-headers.adoc[]
+
+=== 응답필드
+include::{snippets}/game-create-api/response-fields.adoc[]
+
+
+
+
+[[create-list-api]]
+== *경기 목록 조회*
+=== 요청파라미터
+include::{snippets}/game-list-api/request-parameters.adoc[]
+
+=== curl-요청예시
+include::{snippets}/game-list-api/curl-request.adoc[]
+
+=== http 요청예시
+include::{snippets}/game-list-api/http-request.adoc[]
+
+
+=== 응답헤더
+// include::{snippets}/game-list-api/response-headers.adoc[]
+
+=== 응답필드
+// include::{snippets}/game-list-api/response-fields.adoc[]
+
+=== 응답예시
+include::{snippets}/game-list-api/http-response.adoc[]
+
+
+[[game-view-api]]
+
+== *경기 상세 조회*
+=== 요청파라미터
+include::{snippets}/game-view-api/request-parameters.adoc[]
+
+=== curl-요청예시
+include::{snippets}/game-view-api/curl-request.adoc[]
+
+=== http 요청예시
+include::{snippets}/game-view-api/http-request.adoc[]

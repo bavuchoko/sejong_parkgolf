@@ -1,0 +1,16 @@
+= API 문서 (세종파크골프)
+api document for test
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 3
+:sectlinks:
+ifndef::index-snippets[]
+:index-snippets:
+endif::[]
+
+
+//game api
+include::src/docs/asciidoc/game.adoc[]
+
